@@ -1,9 +1,9 @@
 /// @description Core Player Logic
 
 // Get player inputs
-key_left = keyboard_check(vk_left);
-key_right = keyboard_check(vk_right);
-key_jump = keyboard_check(vk_space);
+key_left = keyboard_check(ord("A"));
+key_right = keyboard_check(ord("D"));
+key_jump = keyboard_check_pressed(vk_space);
 
 // Calculate movement
 var _move = key_right - key_left;
@@ -14,7 +14,7 @@ vsp = vsp + grv;
 
 if (place_meeting(x,y+1,object_block_wall)) and (key_jump) 
 {
-	vsp = -jumpspeed
+	vsp = -jumpspeed;
 }
 
 // Horizontal collision
@@ -24,7 +24,7 @@ if (place_meeting(x + hsp, y ,object_block_wall))
 	{
 		x = x + sign(hsp);	
 	}
-	hsp = 0	
+	hsp = 0;
 }
 x = x + hsp;
 
@@ -39,5 +39,34 @@ if (place_meeting(x, y+vsp, object_block_wall))
 }
 y = y + vsp;
 
+// Animation
+if (!place_meeting(x, y+1, object_block_wall)) 
+{
+	if (image_index < 4) 
+	{
+		sprite_index = sprite_player_jumping;
+		image_speed = 0;
+		if (vsp > 0) image_index = 1; else image_index = 0; {}
+	}
+	if (image_index >= 4) 
+	{
+		sprite_index = sprite_player_jumpingBack;
+		image_speed = 0;
+		if (vsp > 0) image_index = 1; else image_index = 0; {}
+	}
 
+}
+else
+{	
+	image_speed = 1;
+	if (hsp == 0)
+	{
+		sprite_index = sprite_player_idle;
+	}
+	else
+	{
+		sprite_index = sprite_player_running;
+	}
+}
 
+if (hsp != 0) image_xscale = sign(hsp);

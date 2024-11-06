@@ -4,11 +4,13 @@
   "name": "GML Platformer",
   "resources": [
     {"id":{"name":"object_player","path":"objects/object_player/object_player.yy",},"order":0,},
-    {"id":{"name":"sprite_player_idle","path":"sprites/sprite_player_idle/sprite_player_idle.yy",},"order":0,},
-    {"id":{"name":"sprite_player_run","path":"sprites/sprite_player_run/sprite_player_run.yy",},"order":2,},
-    {"id":{"name":"sprite_player_pickup","path":"sprites/sprite_player_pickup/sprite_player_pickup.yy",},"order":1,},
+    {"id":{"name":"sprite_player_running","path":"sprites/sprite_player_running/sprite_player_running.yy",},"order":2,},
+    {"id":{"name":"sprite_player_jumping","path":"sprites/sprite_player_jumping/sprite_player_jumping.yy",},"order":5,},
+    {"id":{"name":"sprite_player_idle","path":"sprites/sprite_player_idle/sprite_player_idle.yy",},"order":4,},
     {"id":{"name":"sprite_block_invisibleWall","path":"sprites/sprite_block_invisibleWall/sprite_block_invisibleWall.yy",},"order":0,},
+    {"id":{"name":"Sprite8","path":"sprites/Sprite8/Sprite8.yy",},"order":1,},
     {"id":{"name":"object_block_wall","path":"objects/object_block_wall/object_block_wall.yy",},"order":1,},
+    {"id":{"name":"sprite_player_jumpingBack","path":"sprites/sprite_player_jumpingBack/sprite_player_jumpingBack.yy",},"order":6,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
