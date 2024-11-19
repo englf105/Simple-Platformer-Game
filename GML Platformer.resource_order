@@ -1,0 +1,15 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"obj_block_wall","order":1,"path":"objects/obj_block_wall/obj_block_wall.yy",},
+    {"name":"obj_moving_platform","order":2,"path":"objects/obj_moving_platform/obj_moving_platform.yy",},
+    {"name":"spr_background_clouds","order":2,"path":"sprites/spr_background_clouds/spr_background_clouds.yy",},
+    {"name":"spr_background_tileset_dirt","order":3,"path":"sprites/spr_background_tileset_dirt/spr_background_tileset_dirt.yy",},
+    {"name":"spr_background_tileset","order":1,"path":"sprites/spr_background_tileset/spr_background_tileset.yy",},
+    {"name":"spr_player_idle","order":4,"path":"sprites/spr_player_idle/spr_player_idle.yy",},
+    {"name":"spr_player_jumping_back","order":6,"path":"sprites/spr_player_jumping_back/spr_player_jumping_back.yy",},
+    {"name":"spr_player_jumping","order":5,"path":"sprites/spr_player_jumping/spr_player_jumping.yy",},
+    {"name":"spr_player_running","order":2,"path":"sprites/spr_player_running/spr_player_running.yy",},
+    {"name":"tileset_dirt","order":1,"path":"tilesets/tileset_dirt/tileset_dirt.yy",},
+  ],
+}
