@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_moving_platform",
-  "eventList":[],
+  "%Name":"obj_enemy",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_moving_platform",
+  "name":"obj_enemy",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -27,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_enemy_right",
+    "path":"sprites/spr_enemy_right/spr_enemy_right.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

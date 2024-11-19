@@ -1,11 +1,16 @@
 {
-  "FolderOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"blocks","order":1,"path":"folders/Sprites/blocks.yy",},
+    {"name":"enemies","order":4,"path":"folders/Sprites/enemies.yy",},
+    {"name":"player","order":2,"path":"folders/Sprites/player.yy",},
+  ],
   "ResourceOrderSettings":[
     {"name":"obj_block_wall","order":1,"path":"objects/obj_block_wall/obj_block_wall.yy",},
-    {"name":"obj_moving_platform","order":2,"path":"objects/obj_moving_platform/obj_moving_platform.yy",},
+    {"name":"obj_enemy","order":2,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"spr_background_clouds","order":2,"path":"sprites/spr_background_clouds/spr_background_clouds.yy",},
     {"name":"spr_background_tileset_dirt","order":3,"path":"sprites/spr_background_tileset_dirt/spr_background_tileset_dirt.yy",},
     {"name":"spr_background_tileset","order":1,"path":"sprites/spr_background_tileset/spr_background_tileset.yy",},
+    {"name":"spr_enemy_left","order":1,"path":"sprites/spr_enemy_left/spr_enemy_left.yy",},
     {"name":"spr_player_idle","order":4,"path":"sprites/spr_player_idle/spr_player_idle.yy",},
     {"name":"spr_player_jumping_back","order":6,"path":"sprites/spr_player_jumping_back/spr_player_jumping_back.yy",},
     {"name":"spr_player_jumping","order":5,"path":"sprites/spr_player_jumping/spr_player_jumping.yy",},
