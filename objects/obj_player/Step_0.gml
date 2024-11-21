@@ -75,12 +75,17 @@ if (hsp != 0) image_xscale = sign(hsp);
 
 if (keyboard_check(vk_shift) = 1)
 {
-	walkspeed = 8;
 	image_speed = 2;
 }
 else {
 	walkspeed = 5;
 	image_speed = 1.5;
+	
+}
+
+if (stamina < 20) and (keyboard_check(vk_shift) = 0)
+{
+	stamina += 0.1;
 }
 
 // lives system

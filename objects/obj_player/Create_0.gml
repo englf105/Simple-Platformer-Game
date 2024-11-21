@@ -14,4 +14,6 @@ lives_counter = 0;
 healthbar_x = (50/2);
 healthbar_y = ystart-850;
 
+// Stamina stuff
+stamina = 20;
 

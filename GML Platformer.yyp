@@ -44,6 +44,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"spr_background_clouds","path":"sprites/spr_background_clouds/spr_background_clouds.yy",},},
     {"id":{"name":"spr_background_hud","path":"sprites/spr_background_hud/spr_background_hud.yy",},},
+    {"id":{"name":"spr_background_staminabar","path":"sprites/spr_background_staminabar/spr_background_staminabar.yy",},},
     {"id":{"name":"spr_background_tileset_dirt","path":"sprites/spr_background_tileset_dirt/spr_background_tileset_dirt.yy",},},
     {"id":{"name":"spr_background_tileset","path":"sprites/spr_background_tileset/spr_background_tileset.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
