@@ -98,6 +98,7 @@ if (lives <=0) {
 if (y > 1100) {
 	lives -= 1;
 	lives_counter += 1;
+	stamina = 20;
 	x = xstart;
 	y = ystart;
 

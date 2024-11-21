@@ -16,4 +16,4 @@ healthbar_y = ystart-850;
 
 // Stamina stuff
 stamina = 20;
-
+staminabar_opacity = 0.2;
