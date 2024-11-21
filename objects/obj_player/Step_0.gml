@@ -82,3 +82,18 @@ else {
 	walkspeed = 5;
 	image_speed = 1.5;
 }
+
+// lives system
+
+if (lives <=0) {
+	game_restart();
+
+}
+
+if (y > 1100) {
+	lives -= 1;
+	lives_counter += 1;
+	x = xstart;
+	y = ystart;
+
+}
